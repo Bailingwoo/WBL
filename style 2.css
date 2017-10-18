@@ -1,0 +1,183 @@
+{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: donsis,sans-serif;
+    font-size: 100%;
+    margin:0 auto;
+    width: 1100px;
+}
+
+header {
+    text-align: right;
+    background-color: white;
+    color:white;
+    font: Brush Script Std, Brush Script MT, cursive;
+}
+
+
+nav {
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+ul {
+    background-color:white;
+   border: 0.5px solid black;}
+
+li {
+    list-style-type: none;
+    float:left
+}
+
+a {
+    display:block;
+    padding: 8px;
+    text-align: center;
+}
+
+nav li {
+    color: black;
+    display: inline-block;
+    
+}
+
+
+.subnav {
+    font-size: .9375em;
+    left: -999em;
+    /* moves subnav off screen */
+    margin-left: -18px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.nav li:hover .subnav {
+    display: block;
+    /* This is actually redundant. The nav is a block element by default. */
+    left: auto;
+    /* puts subnav back in natural spot */
+    width: 15em; 
+}
+
+
+.nav .subnav li {
+    background-color: white;
+    border-bottom: solid 10px white;
+    border-left: solid 15px white;
+    border-right: solid 15px white;
+    border-top: solid 10px white;
+    float: left;
+    font-size: .875em;
+    width: auto;
+    
+}
+.nav a:link {
+    color: Black;
+    text-decoration: none;
+}
+
+.nav li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: #0000b3;
+    text-decoration: none;
+}
+
+.nav-links:link {
+    color:  gray;
+    text-decoration: none;
+}
+
+.nav-links:visited {
+    color: black;
+    text-decoration: none;
+}
+    
+.nav-links:hover {
+     color:#0000b3;   
+    }
+
+.nav li a:hover {
+    color: #0000b3;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    transition: background-color .5s;
+}
+
+
+articles {
+    
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+section{
+    padding-top: 30px;
+    
+}
+
+figure{
+    color:black;
+    float: left;
+    text-align: center;
+    height: 175px;
+    margin: 20px;
+    width: 28%;
+    padding-bottom: 300px;
+    padding-left: 150px;
+   
+}
+.looks a:hover{
+    opacity: 0.8;
+    transition: opacity .4s ease;
+}
+
+
+h1{
+    padding-top: 10px;
+}
+h1 a:link {
+    color: gray;
+    text-decoration: none;
+    text-align: right}
+
+h1 a:visited {
+    color:grey;
+    text-decoration: none;
+    text-align: right
+}
+
+
+h2 {font-family: donsis, sans-serif;
+    text-align: center;
+    color: black;
+    border: 0.5px solid black;
+    
+
+}
+
+h3 {
+    font-family: serif;
+    text-align: center;
+    color: darkgray;
+}
+
+figcaption{
+    color: grey;
+     
+}
+footer {
+    background-color: white;
+    clear: both;
+    min-height: 50px;
+    text-align: center;
+}
+

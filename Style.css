@@ -1,0 +1,277 @@
+{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    font-family: donsis, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 1100px;
+    background-color: white;
+}
+
+header {
+    text-align: right;
+    background-color: white;
+    color:white;
+    font: donsis, cursive;
+    
+}
+nav {
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+ul {
+    background-color:white;
+   border: 0.5px solid grey;
+    margin: 0 auto;
+}
+   
+li {
+    list-style-type: none;
+    float:left;
+    max-width: 1100px;
+}
+
+a {
+    display:block;
+    padding: 8px;
+    text-align: center;
+}
+
+nav li {
+    color: black;
+    display: inline-block;
+    
+}
+
+
+.subnav {
+    font-size: .9375em;
+    left: -999em;
+    /* moves subnav off screen */
+    margin-left: -18px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.nav li:hover .subnav {
+    display: block;
+    /* This is actually redundant. The nav is a block element by default. */
+    left: auto;
+    /* puts subnav back in natural spot */
+    width: 15em; 
+}
+
+.nav .subnav li {
+    background-color: whiteg;
+    border-bottom: solid 10px white;
+    border-left: solid 15px white;
+    border-right: solid 15px white;
+    border-top: solid 10px white;
+    float: left;
+    font-size: .875em;
+    width: auto;
+}
+
+.nav li a:hover {
+    color: #0000b3;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    transition: background-color .5s;
+}
+
+
+.nav a:link {
+    color: Black;
+    text-decoration: none;
+}
+
+.nav li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: #0000b3;
+    text-decoration: none;
+}
+
+.nav-links:link {
+    color: gray;
+    text-decoration: none;
+}
+
+.nav-links:visited {
+    color: black;
+    text-decoration: none;
+}
+    
+.nav-links:hover {
+     color:#0000b3;  
+    display: block;
+    }
+
+
+
+article {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+
+
+.photos {
+    float: center;
+    padding: 10px 0px 15px 80px;
+    position: relative;
+}
+
+.section1{
+    background-color: #f2f2f2;
+    float:left;
+    width: 25%;
+    min-height: 660px;
+    width: 500;
+    border: 1px solid black;
+    padding-right: 20px;
+}
+
+
+.landingpage{
+    float:center;
+    margin-right:8em;
+    
+}
+
+figcaption {
+    background-color: grey;
+    color:black;
+    display: block;
+    font-size: 90%;
+    height: 150px;
+    opacity: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    transition: opacity .4s ease;
+    
+}
+
+figcaption p {
+   padding-top: 40px; 
+}
+    
+.landingpage a:hover {
+    opacity: 0.8;
+}
+    
+.section3{ 
+    background-color: white;
+    float: right;
+    min-height: 660px;
+    width: 70%;
+     
+    
+}
+
+footer {
+    background-color: white;
+    clear: both;
+    min-height: 50px;
+    text-align: center;
+}
+
+h1{
+    padding-top: 10px;
+}
+h1 a:link {
+    color: gray;
+    text-decoration: none;
+    text-align: right}
+
+h1 a:visited {
+    color:grey;
+    text-decoration: none;
+    text-align: right
+}
+
+
+h2 {font-family: donsis, sans-serif;
+    text-align: center;
+    color: gray;}
+
+h3 {
+    font-family: donsis,sans-serif;
+    text-align: center;
+    color: black;
+}
+
+
+
+p {padding-left: 30px;
+  padding-top: 30px;
+  color:grey;
+}
+
+.map{
+    padding-left: 60px;
+}
+
+
+.cover{
+    padding-left: 400px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 250px;
+    float: left;
+    border: 1px solid black;
+}  
+.cover1{
+    padding-left: 150px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 80px;
+    float: left;
+    border: 1px solid black;
+}  
+.collection a:link {
+    color: gray;
+    text-decoration: none;}
+
+.collection a:visited {
+    color:#0000b3;
+    text-decoration: none;
+}
+
+div{
+	color:#999999;
+	padding:0px;
+    font-size: .9em;
+    padding-left: 80px;
+}
+
+.center{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    color:lightgrey;
+    
+}
+
+.center1{
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    color:white;
+    
+}
